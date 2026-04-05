@@ -95,7 +95,7 @@ export default function LandingPage() {
             testimonials={[
               { id: "1", name: "Ayşe Y.", role: "Hasta", company: "Rinoplasti", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/female-patient-smiling-while-looking-doctor_107420-74008.jpg" },
               { id: "2", name: "Mehmet K.", role: "Hasta", company: "Liposuction", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-brunette-girl-posing-with-closed-eyes_176420-8507.jpg" },
-              { id: "3", name: "Selin D.", role: "Hasta", company: "Yüz Germe", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/attractive-smiling-doctor-holding-hand-heart-dreamily-looking-camera-isolated-tender-touched-expression_574295-2653.jpg" },
+              { id: "3", name: "Selin D.", role: "Hasta", company: "Yüz Germe", rating: 5, imageSrc: "http://img.b2bpic.net/attractive-smiling-doctor-holding-hand-heart-dreamily-looking-camera-isolated-tender-touched-expression_574295-2653.jpg" },
               { id: "4", name: "Canan B.", role: "Hasta", company: "Karın Germe", rating: 5, imageSrc: "http://img.b2bpic.net/woman-cosmetologist-making-beauty-procedures_1303-26019.jpg" },
               { id: "5", name: "Emre S.", role: "Hasta", company: "Lipödem", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-woman-posing_23-2149265857.jpg" },
             ]}
