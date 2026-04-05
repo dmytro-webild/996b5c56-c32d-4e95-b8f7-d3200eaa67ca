@@ -8,22 +8,25 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function LiposuctionPage() {
   return (
-    <ThemeProvider defaultButtonVariant="text-stagger" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
+    <ThemeProvider>
       <ReactLenis root>
-        <NavbarStyleApple
-          navItems={[{ name: "Anasayfa", id: "/" }, { name: "Burun Estetiği", id: "rinoplasti" }, { name: "Liposuction", id: "liposuction" }, { name: "İletişim", id: "#contact" }]}
-          brandName="Dr. Turab İSMAYILOV"
-        />
-        <div className="pt-32 pb-20 px-6 max-w-4xl mx-auto">
-          <h1 className="text-5xl font-bold mb-6">Liposuction</h1>
-          <p className="text-xl text-gray-600 mb-8">Vücudun belirli bölgelerindeki inatçı yağ birikintilerini kalıcı olarak uzaklaştıran, vücut kontürünüzü yeniden şekillendiren modern bir yöntemdir.</p>
-          <h2 className="text-3xl font-semibold mb-4">Kimler İçin Uygundur?</h2>
-          <p className="mb-6">Kilo vermesine rağmen belirli bölgelerde (karın, basen, çene altı) bölgesel yağlanmadan şikayet eden sağlıklı bireyler için idealdir.</p>
-          <h2 className="text-3xl font-semibold mb-4">Recovery (İyileşme)</h2>
-          <p className="mb-8">İşlem sonrası birkaç gün dinlenme önerilir. Ödemlerin inmesi 4-6 hafta sürebilir, ancak sonuçlar kısa sürede fark edilir.</p>
+        <NavbarStyleApple navItems={[{name: "Anasayfa", id: "/"}, {name: "Liposuction", id: "#content"}]} brandName="Dr. Turab İSMAYILOV" />
+        <div id="content" className="py-24 max-w-4xl mx-auto px-6">
+          <h1 className="text-4xl font-bold mb-8">Liposuction ile İdeal Vücut Hatlarına Kavuşun</h1>
+          <img src="http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg?_wi=1" alt="Liposuction Sonuçları" className="rounded-xl shadow-lg mb-8" />
+          <p className="text-lg mb-6 leading-relaxed">
+            Dr. Turab İsmayılov, liposuction ameliyatlarında modern teknolojiyi ve ileri cerrahi teknikleri birleştirerek hastalarına güvenli ve etkili çözümler sunmaktadır. Liposuction, diyet ve egzersize dirençli bölgesel yağların vücuttan uzaklaştırılması işlemidir. Bu operasyon, kilo verme yöntemi değil, vücudu şekillendirme ve orantılandırma yöntemidir.
+          </p>
+          <p className="text-lg mb-6 leading-relaxed">
+            Uzmanlığım sayesinde, karın, bel, kalça ve bacak gibi bölgelerdeki inatçı yağ depolarını minimal invaziv tekniklerle hedefliyorum. Her hastamın anatomik yapısını dikkatlice analiz ederek, en doğal ve estetik sonuçları elde etmeyi hedefliyorum. İyileşme süreci titizlikle yönetilir ve hastalarımızın konforu en ön planda tutulur.
+          </p>
+          <img src="http://img.b2bpic.net/free-photo/close-up-hand-using-medical-tool-patient_23-2149103624.jpg" alt="Operasyon Detayı" className="rounded-xl shadow-lg mb-8" />
+          <p className="text-lg leading-relaxed">
+            Dr. Turab İsmayılov ile gerçekleştireceğiniz ön görüşmede, beklentilerinizi ve vücut yapınıza en uygun planlamayı detaylıca ele alırız. Vücut hatlarınızı yeniden belirginleştirmek ve özgüveninizi tazelemek için profesyonel cerrahi desteği şimdi alın.
+          </p>
         </div>
-        <div id="contact"><ContactSplitForm useInvertedBackground={false} title="Liposuction Hakkında Bilgi Alın" description="Vücut şekillendirme için uzman görüşü alın." inputs={[{ name: "name", type: "text", placeholder: "Adınız", required: true }, { name: "email", type: "email", placeholder: "E-posta", required: true }]} /></div>
-        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=3" />
+        <ContactSplitForm title="Ücretsiz Muayene Randevusu" description="Liposuction operasyonu hakkında detaylı bilgi almak için bizimle iletişime geçin." inputs={[{name: "name", type: "text", placeholder: "İsim"}, {name: "phone", type: "tel", placeholder: "Telefon"}]} />
+        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} />
       </ReactLenis>
     </ThemeProvider>
   );
