@@ -69,7 +69,7 @@ export default function LipodemPage() {
               { title: "Hizmetler", items: [{ label: "Lipödem", href: "/lipodem" }, { label: "Liposuction", href: "/liposuction" }] },
               { title: "İletişim", items: [{ label: "İletişim", href: "/#contact" }] },
             ]}
-            videoSrc="https://www.w3schools.com/howto/rain.mp4"
+            videoSrc="https://www.w3schools.com/howto/rain.mp4?_wi=1"
           />
         </div>
       </ReactLenis>

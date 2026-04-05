@@ -29,7 +29,7 @@ export default function YuzGermePage() {
         <FooterMedia
            logoText="Dr. Turab İSMAYILOV"
            columns={[{ title: "Menü", items: [{ label: "Anasayfa", href: "/" }] }]} 
-           videoSrc="https://www.w3schools.com/howto/rain.mp4"
+           videoSrc="https://www.w3schools.com/howto/rain.mp4?_wi=3"
         />
       </ReactLenis>
     </ThemeProvider>
