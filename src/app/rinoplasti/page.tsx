@@ -1,59 +1,35 @@
 "use client";
-
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
+import LegalSection from '@/components/legal/LegalSection';
 
 export default function RinoplastiPage() {
   return (
-    <ThemeProvider
-        defaultButtonVariant="bounce-effect"
-        defaultTextAnimation="reveal-blur"
-        borderRadius="pill"
-        contentWidth="medium"
-        sizing="medium"
-        background="circleGradient"
-        cardStyle="glass-elevated"
-        primaryButtonStyle="gradient"
-        secondaryButtonStyle="glass"
-        headingFontWeight="normal"
-    >
+    <ThemeProvider>
       <ReactLenis root>
-        <div id="nav" data-section="nav">
-          <NavbarStyleApple
-            navItems={[
+        <NavbarStyleApple
+           navItems={[
               { name: "Anasayfa", id: "/" },
-              { name: "Hizmetler", id: "/#services" },
-              { name: "Yüz Germe", id: "/yuz-germe" },
-              { name: "Lipödem", id: "/lipodem" },
-              { name: "Liposuction", id: "/liposuction" },
-              { name: "İletişim", id: "/contact" },
-            ]}
-            brandName="Dr. Turab İSMAYILOV"
-          />
-        </div>
-        <div id="contact" data-section="contact">
-          <ContactSplitForm
-            useInvertedBackground={true}
-            title="Burun Estetiği Randevusu"
-            description="Rinoplasti operasyonları ve süreç hakkında bilgi alın."
-            inputs={[
-              { name: "name", type: "text", placeholder: "Adınız Soyadınız", required: true },
-              { name: "email", type: "email", placeholder: "E-posta Adresiniz", required: true },
-            ]}
-          />
-        </div>
-        <div id="footer" data-section="footer">
-          <FooterMedia
-            logoText="Dr. Turab İSMAYILOV"
-            videoSrc="http://img.b2bpic.net/video/liposuction.mp4?_wi=3"
-            columns={[
-              { title: "Hizmetler", items: [{ label: "Rinoplasti", href: "#" }] }
-            ]}
-          />
-        </div>
+              { name: "Rinoplasti", id: "/rinoplasti" },
+           ]}
+           brandName="Dr. Turab İSMAYILOV"
+        />
+        <LegalSection
+          layout="page"
+          title="Rinoplasti (Burun Estetiği)"
+          subtitle="Yüzünüzle Uyumlu, Doğal ve Fonksiyonel Çözümler"
+          sections={[
+            { heading: "Rinoplasti Nedir?", content: [{ type: "paragraph", text: "Rinoplasti, tıp dilinde burun estetiği olarak bilinen, burun şeklini değiştirmeyi ve fonksiyonel problemlerini gidermeyi amaçlayan cerrahi bir işlemdir. Dr. Turab İsmayılov, hastalarının yüz hatlarına en uygun, nefes almayı iyileştiren ve özgüveni artıran estetik sonuçlar hedefler. Rinoplasti, sadece estetik bir kaygı olmayıp aynı zamanda burun içindeki eğriliklerin (septum deviasyonu) düzeltilmesini de kapsayabilir." }] },
+            { heading: "İşlem Süreci", content: [{ type: "paragraph", text: "Operasyon süreci kişiye özel planlanır. İlk aşamada detaylı analiz yapılır, yüz oranları değerlendirilir ve simülasyonlar üzerinde hedeflenen sonuç konuşulur. Genel anestezi altında uygulanan Rinoplasti, modern cerrahi teknikler sayesinde morluk ve ödem riskini minimize ederek gerçekleştirilir. Operasyon süresi vakanın zorluğuna göre 2-3 saat arasında sürmektedir." }, { type: "list", items: ["Kişiye özel burun tasarımı", "Fonksiyonel nefes yolu düzeltmesi", "Minimal cerrahi travma", "Doğal ve orantılı sonuçlar"] }] },
+            { heading: "İyileşme Süreci", content: [{ type: "paragraph", text: "Rinoplasti sonrası ilk hafta burunda bir atel veya alçı bulunur. İyileşme sürecinin ilk 7-10 günü sosyal hayata dönmek için genellikle yeterlidir. Tam iyileşme ve burun hattının oturması birkaç ayı bulsa da, ilk haftadan itibaren hastalar oldukça konforlu bir süreç geçirirler. Dr. Turab İsmayılov, süreç boyunca hastalarını birebir takip eder." }] }
+          ]}
+        />
+        <FooterMedia
+           logoText="Dr. Turab İSMAYILOV"
+           columns={[{ title: "Menü", items: [{ label: "Anasayfa", href: "/" }] }]} 
+        />
       </ReactLenis>
     </ThemeProvider>
   );
