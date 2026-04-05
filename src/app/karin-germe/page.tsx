@@ -5,33 +5,30 @@ import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
-import HeroLogo from '@/components/sections/hero/HeroLogo';
 
 export default function KarinGermePage() {
   return (
     <ThemeProvider defaultButtonVariant="text-stagger" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
-        <NavbarStyleApple
-          navItems={[
-            { name: "Anasayfa", id: "/" },
-            { name: "Karın Germe", id: "/karin-germe" },
-            { name: "Lipödem", id: "/lipodem" },
-            { name: "İletişim", id: "/contact" },
-          ]}
-          brandName="Dr. Turab İSMAYILOV"
-        />
-        <HeroLogo
-          logoText="Karın Germe (Abdominoplasti)"
-          description="Daha düz, sıkı ve estetik bir karın bölgesi için cerrahi çözümler."
-          imageSrc="http://img.b2bpic.net/free-photo/close-up-hand-using-medical-tool-patient_23-2149103624.jpg"
-          buttons={[{ text: "Detaylı Bilgi", href: "#contact" }]}
-        />
-        <div className="container mx-auto py-16 px-4">
-          <h2 className="text-3xl font-bold mb-6">Karın Germe Nedir?</h2>
-          <p className="mb-4">Karın germe operasyonu, karın bölgesindeki sarkan deri ve fazla yağ dokusunun uzaklaştırıldığı, karın kaslarının sıkılaştırıldığı kapsamlı bir estetik cerrahidir.</p>
+        <div id="nav" data-section="nav">
+          <NavbarStyleApple navItems={[{name: "Anasayfa", id: "/"}, {name: "Karın Germe", id: "#content"}, {name: "Liposuction", id: "/liposuction"}, {name: "Rinoplasti", id: "/rinoplasti"}, {name: "Yüz Germe", id: "/yuz-germe"}, {name: "Lipödem", id: "/lipodem"}]} />
         </div>
-        <ContactSplitForm useInvertedBackground={false} title="Randevu Alın" description="Detaylı bilgi için iletişime geçin." inputs={[{name: 'name', type: 'text', placeholder: 'İsim', required: true}, {name: 'email', type: 'email', placeholder: 'E-posta', required: true}]} />
-        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=1" />
+        <div id="content" className="py-24 max-w-4xl mx-auto px-6">
+          <h1 className="text-4xl font-bold mb-8">Karın Germe (Abdominoplasti) Uzmanlığı</h1>
+          <img src="http://img.b2bpic.net/free-photo/close-up-hand-using-medical-tool-patient_23-2149103624.jpg" alt="Karın Germe Operasyonu" className="rounded-xl shadow-lg mb-8" />
+          <p className="text-lg mb-6 leading-relaxed">
+            Karın bölgesi, yaşlanma, hamilelik veya ani kilo değişimleri nedeniyle esnekliğini en çok kaybeden bölgelerdendir. Dr. Turab İsmayılov, abdominoplasti (karın germe) ameliyatlarında dokuların daha sıkı, düz ve estetik görünmesini sağlayarak vücudun merkez bölgesini gençleştirir.
+          </p>
+          <p className="text-lg mb-6 leading-relaxed">
+            Cerrahi yaklaşımımızda, sadece deri sarkmalarını gidermekle kalmıyor, aynı zamanda karın kaslarını onararak daha sıkı ve doğal bir yapı oluşturuyoruz. Hastalarımın güvenliğini ve estetik tatminini ön planda tutan Dr. Turab İsmayılov, her bir vakada özelleştirilmiş planlama ile kişiye özel başarı sağlamaktadır.
+          </p>
+        </div>
+        <div id="contact" data-section="contact">
+          <ContactSplitForm title="Ücretsiz Muayene Randevusu" description="Karın germe operasyonu hakkında bilgi alın." inputs={[{name: "name", type: "text", placeholder: "İsim"}, {name: "phone", type: "tel", placeholder: "Telefon"}]} useInvertedBackground={false} imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401854412-kfbas95n.png" />
+        </div>
+        <div id="footer" data-section="footer">
+          <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} imageSrc="http://img.b2bpic.net/free-photo/patient-is-meeting-doctor_53876-14359.jpg?id=2765291" />
+        </div>
       </ReactLenis>
     </ThemeProvider>
   );
