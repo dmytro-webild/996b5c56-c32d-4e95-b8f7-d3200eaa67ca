@@ -36,8 +36,8 @@ export default function LandingPage() {
               { name: "Lipödem", id: "/lipodem" },
               { name: "Hakkımızda", id: "about" },
               { name: "İletişim", id: "contact" },
-            ]}
-            brandName="Dr. Turab İSMAYILOV"
+            ],
+            brandName: "Dr. Turab İSMAYILOV"
           />
         </div>
 
