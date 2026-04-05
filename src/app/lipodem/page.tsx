@@ -69,7 +69,7 @@ export default function LipodemPage() {
               { title: "Hizmetler", items: [{ label: "Lipödem", href: "/lipodem" }, { label: "Liposuction", href: "/liposuction" }] },
               { title: "İletişim", items: [{ label: "İletişim", href: "/#contact" }] },
             ]}
-            videoSrc="https://www.w3schools.com/howto/rain.mp4?_wi=1"
+            imageSrc="http://img.b2bpic.net/premium-photo/losing-weight-concept-real-people-size-plus-model-taking-measurements-her-thigh-holding-tailor-measuring-tape_378362-32.jpg?id=12368323"
           />
         </div>
       </ReactLenis>
