@@ -72,11 +72,11 @@ export default function LandingPage() {
             gridVariant="three-columns-all-equal-width"
             useInvertedBackground={false}
             features={[
-              { title: "Burun Estetiği (Rinoplasti)", description: "Yüz hatlarınızla uyumlu, fonksiyonel ve estetik burun operasyonları.", imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg" },
-              { title: "Liposuction", description: "İnatçı yağlardan kurtulun, vücut hatlarınızı yeniden belirginleştirin.", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg" },
+              { title: "Burun Estetiği (Rinoplasti)", description: "Yüz hatlarınızla uyumlu, fonksiyonel ve estetik burun operasyonları.", imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg?_wi=1" },
+              { title: "Liposuction", description: "İnatçı yağlardan kurtulun, vücut hatlarınızı yeniden belirginleştirin.", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg?_wi=1" },
               { title: "Karın Germe", description: "Daha düz ve sıkı bir karın bölgesi için estetik abdominoplasti.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-hand-using-medical-tool-patient_23-2149103624.jpg" },
-              { title: "Lipödem", description: "Lipödem tedavisi ile ağrılarınızı azaltın, yaşam kalitenizi artırın.", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg" },
-              { title: "Yüz Germe (Face Lift)", description: "Daha genç, dinamik ve doğal bir yüz görünümü için profesyonel dokunuşlar.", imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg" },
+              { title: "Lipödem", description: "Lipödem tedavisi ile ağrılarınızı azaltın, yaşam kalitenizi artırın.", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg?_wi=2" },
+              { title: "Yüz Germe (Face Lift)", description: "Daha genç, dinamik ve doğal bir yüz görünümü için profesyonel dokunuşlar.", imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg?_wi=2" },
             ]}
             title="Estetik Hizmetlerimiz"
             description="Size en uygun estetik çözümleri sunuyoruz."
@@ -127,13 +127,13 @@ export default function LandingPage() {
               { name: "phone", type: "tel", placeholder: "Telefon Numaranız", required: true },
             ]}
             textarea={{ name: "message", placeholder: "Sormak istediklerinizi yazın...", rows: 4 }}
-            imageSrc="http://img.b2bpic.net/free-photo/waiting-room-hospital-lobby-with-reception-counter-desk-diverse-people-waiting-attend-checkup-visit-appointment-health-care-examination-emergency-area-medical-clinic_482257-46891.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/waiting-room-hospital-lobby-with-reception-counter-desk-diverse-people-waiting-attend-checkup-visit-appointment-health-care-examination-emergency-area-medical-clinic_482257-46891.jpg?_wi=1"
           />
         </div>
 
         <div id="footer" data-section="footer">
           <FooterMedia
-            imageSrc="http://img.b2bpic.net/free-photo/waiting-room-hospital-lobby-with-reception-counter-desk-diverse-people-waiting-attend-checkup-visit-appointment-health-care-examination-emergency-area-medical-clinic_482257-46891.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/waiting-room-hospital-lobby-with-reception-counter-desk-diverse-people-waiting-attend-checkup-visit-appointment-health-care-examination-emergency-area-medical-clinic_482257-46891.jpg?_wi=2"
             logoText="Dr. Turab İSMAYILOV"
             columns={[
               { title: "Hizmetler", items: [{ label: "Burun Estetiği", href: "#services" }, { label: "Liposuction", href: "#services" }, { label: "Karın Germe", href: "#services" }] },
