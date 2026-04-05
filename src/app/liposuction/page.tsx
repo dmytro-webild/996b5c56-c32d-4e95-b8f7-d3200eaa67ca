@@ -20,10 +20,10 @@ export default function LiposuctionPage() {
           </p>
         </div>
         <div id="contact" data-section="contact">
-          <ContactSplitForm title="Ücretsiz Muayene Randevusu" description="Liposuction operasyonu hakkında detaylı bilgi almak için bizimle iletişime geçin." inputs={[{name: "name", type: "text", placeholder: "İsim"}, {name: "phone", type: "tel", placeholder: "Telefon"}]} useInvertedBackground={false} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+          <ContactSplitForm title="Ücretsiz Muayene Randevusu" description="Liposuction operasyonu hakkında detaylı bilgi almak için bizimle iletişime geçin." inputs={[{name: "name", type: "text", placeholder: "İsim"}, {name: "phone", type: "tel", placeholder: "Telefon"}]} useInvertedBackground={false} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=5" />
         </div>
         <div id="footer" data-section="footer">
-          <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+          <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=6" />
         </div>
       </ReactLenis>
     </ThemeProvider>

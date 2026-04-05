@@ -17,10 +17,10 @@ export default function YuzGermePage() {
             <h1 className="text-4xl font-bold mb-8">Yüz Germe (Face Lift)</h1>
         </div>
         <div id="contact" data-section="contact">
-          <ContactSplitForm title="Bilgi ve Randevu" description="Yüz germe hakkında uzman görüşü almak için iletişime geçin." inputs={[{ name: "name", type: "text", placeholder: "Adınız" }, { name: "email", type: "email", placeholder: "E-posta" }]} useInvertedBackground={false} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+          <ContactSplitForm title="Bilgi ve Randevu" description="Yüz germe hakkında uzman görüşü almak için iletişime geçin." inputs={[{ name: "name", type: "text", placeholder: "Adınız" }, { name: "email", type: "email", placeholder: "E-posta" }]} useInvertedBackground={false} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=9" />
         </div>
         <div id="footer" data-section="footer">
-          <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[{ title: "Sayfalar", items: [{ label: "Anasayfa", href: "/" }] }]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+          <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[{ title: "Sayfalar", items: [{ label: "Anasayfa", href: "/" }] }]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=10" />
         </div>
       </ReactLenis>
     </ThemeProvider>
