@@ -31,7 +31,7 @@ export default function KarinGermePage() {
           <p className="mb-4">Karın germe operasyonu, karın bölgesindeki sarkan deri ve fazla yağ dokusunun uzaklaştırıldığı, karın kaslarının sıkılaştırıldığı kapsamlı bir estetik cerrahidir.</p>
         </div>
         <ContactSplitForm useInvertedBackground={false} title="Randevu Alın" description="Detaylı bilgi için iletişime geçin." inputs={[{name: 'name', type: 'text', placeholder: 'İsim', required: true}, {name: 'email', type: 'email', placeholder: 'E-posta', required: true}]} />
-        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=1" />
       </ReactLenis>
     </ThemeProvider>
   );
