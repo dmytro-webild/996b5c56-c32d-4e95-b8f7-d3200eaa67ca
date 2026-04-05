@@ -10,7 +10,7 @@ import HeroLogo from '@/components/sections/hero/HeroLogo';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
-import { Activity } from "lucide-react";
+import { Activity, MessageCircle } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -37,6 +37,7 @@ export default function LandingPage() {
               { name: "Liposuction", id: "/liposuction" },
               { name: "Hakkımızda", id: "about" },
               { name: "İletişim", id: "contact" },
+              { name: "WhatsApp", id: "https://wa.me/905466398033" },
             ]}
             brandName="Dr. Turab İSMAYILOV"
           />
@@ -49,6 +50,7 @@ export default function LandingPage() {
             buttons={[
               { text: "Randevu Al", href: "#contact" },
               { text: "Hizmetleri İncele", href: "#services" },
+              { text: "WhatsApp", href: "https://wa.me/905466398033" },
             ]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401476529-x1t7925e.png"
             imageAlt="Dr. Turab İsmayılov"
@@ -141,7 +143,7 @@ export default function LandingPage() {
             logoText="Dr. Turab İSMAYILOV"
             columns={[
               { title: "Hizmetler", items: [{ label: "Burun Estetiği", href: "#services" }, { label: "Liposuction", href: "/liposuction" }, { label: "Karın Germe", href: "#services" }, { label: "Yüz Germe", href: "/yuz-germe" }, { label: "Lipödem", href: "/lipodem" }] },
-              { title: "İletişim", items: [{ label: "Bize Ulaşın", href: "#contact" }, { label: "Randevu", href: "#contact" }] },
+              { title: "İletişim", items: [{ label: "Bize Ulaşın", href: "#contact" }, { label: "Randevu", href: "#contact" }, { label: "WhatsApp", href: "https://wa.me/905466398033" }] },
             ]}
             copyrightText="© 2025 Dr. Turab İsmayılov. Tüm hakları saklıdır."
           />
