@@ -32,6 +32,7 @@ export default function LandingPage() {
             navItems={[
               { name: "Anasayfa", id: "hero" },
               { name: "Hizmetler", id: "services" },
+              { name: "Yüz Germe", id: "/yuz-germe" },
               { name: "Hakkımızda", id: "about" },
               { name: "İletişim", id: "contact" },
             ]}
@@ -136,7 +137,7 @@ export default function LandingPage() {
             imageSrc="http://img.b2bpic.net/free-photo/waiting-room-hospital-lobby-with-reception-counter-desk-diverse-people-waiting-attend-checkup-visit-appointment-health-care-examination-emergency-area-medical-clinic_482257-46891.jpg?_wi=2"
             logoText="Dr. Turab İSMAYILOV"
             columns={[
-              { title: "Hizmetler", items: [{ label: "Burun Estetiği", href: "#services" }, { label: "Liposuction", href: "#services" }, { label: "Karın Germe", href: "#services" }] },
+              { title: "Hizmetler", items: [{ label: "Burun Estetiği", href: "#services" }, { label: "Liposuction", href: "#services" }, { label: "Karın Germe", href: "#services" }, { label: "Yüz Germe", href: "/yuz-germe" }] },
               { title: "İletişim", items: [{ label: "Bize Ulaşın", href: "#contact" }, { label: "Randevu", href: "#contact" }] },
             ]}
             copyrightText="© 2025 Dr. Turab İsmayılov. Tüm hakları saklıdır."
