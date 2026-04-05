@@ -7,7 +7,7 @@ import LegalSection from '@/components/legal/LegalSection';
 
 export default function YuzGermePage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="text-stagger" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
         <NavbarStyleApple
            navItems={[
@@ -29,6 +29,7 @@ export default function YuzGermePage() {
         <FooterMedia
            logoText="Dr. Turab İSMAYILOV"
            columns={[{ title: "Menü", items: [{ label: "Anasayfa", href: "/" }] }]} 
+           videoSrc="https://www.w3schools.com/howto/rain.mp4"
         />
       </ReactLenis>
     </ThemeProvider>
