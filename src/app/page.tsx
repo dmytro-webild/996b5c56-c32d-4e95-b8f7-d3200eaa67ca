@@ -50,7 +50,7 @@ export default function LandingPage() {
               { text: "Randevu Al", href: "#contact" },
               { text: "Hizmetleri İncele", href: "#services" },
             ]}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401455249-pp8jzgxm.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/handsome-young-doctor-standing-with-arms-crossed_144627-39327.jpg"
             imageAlt="Dr. Turab İsmayılov"
           />
         </div>
@@ -63,7 +63,7 @@ export default function LandingPage() {
             description="Plastik, Rekonstrüktif ve Estetik Cerrahi alanında uzmanlaşmış, uluslararası standartlarda operasyonlar gerçekleştiren Dr. Turab İsmayılov, her hastasının ihtiyaçlarına özel, doğal ve estetik çözümler sunmaktadır."
             subdescription="Yılların deneyimi, gelişmiş teknikler ve yüksek hasta memnuniyeti ile güzelliğinizi güvenli ellerle yeniden şekillendiriyoruz."
             icon={Activity}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401481238-zuo4p91l.png"
+            imageSrc="http://img.b2bpic.net/free-photo/portrait-successful-doctor-with-medical-uniform-standing-hospital_1258-125032.jpg"
             mediaAnimation="slide-up"
           />
         </div>
@@ -74,12 +74,13 @@ export default function LandingPage() {
             textboxLayout="split"
             gridVariant="three-columns-all-equal-width"
             useInvertedBackground={false}
+            buttons={[{ text: "Schedule a Consultation", href: "#contact" }]}
             features={[
-              { title: "Burun Estetiği (Rinoplasti)", description: "Yüz hatlarınızla uyumlu, fonksiyonel ve estetik burun operasyonları.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401555788-fho6nzgf.jpg" },
+              { title: "Burun Estetiği (Rinoplasti)", description: "Yüz hatlarınızla uyumlu, fonksiyonel ve estetik burun operasyonları.", imageSrc: "http://img.b2bpic.net/free-photo/medical-clinic-professional-plastic-surgery-tools-set_1258-67503.jpg?_wi=1" },
               { title: "Liposuction", description: "İnatçı yağlardan kurtulun, vücut hatlarınızı yeniden belirginleştirin.", imageSrc: "http://img.b2bpic.net/free-photo/doctor-working-with-patient-hospital_23-2149103624.jpg?_wi=1" },
-              { title: "Karın Germe", description: "Daha düz ve sıkı bir karın bölgesi için estetik abdominoplasti.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401577303-9le8lp8b.jpg" },
+              { title: "Karın Germe", description: "Daha düz ve sıkı bir karın bölgesi için estetik abdominoplasti.", imageSrc: "http://img.b2bpic.net/free-photo/hospital-staff-medical-tools-examination-room_482257-46891.jpg" },
               { title: "Lipödem", description: "Lipödem tedavisi ile ağrılarınızı azaltın, yaşam kalitenizi artırın.", imageSrc: "http://img.b2bpic.net/free-photo/medical-specialist-examining-patient_107420-74008.jpg?_wi=2" },
-              { title: "Yüz Germe (Face Lift)", description: "Daha genç, dinamik ve doğal bir yüz görünümü için profesyonel dokunuşlar.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401592857-x403xecy.jpg" },
+              { title: "Yüz Germe (Face Lift)", description: "Daha genç, dinamik ve doğal bir yüz görünümü için profesyonel dokunuşlar.", imageSrc: "http://img.b2bpic.net/free-photo/surgeon-portrait-hospital-corridor_144627-39327.jpg?_wi=2" },
             ]}
             title="Estetik Hizmetlerimiz"
             description="Size en uygun estetik çözümleri sunuyoruz."
@@ -130,13 +131,13 @@ export default function LandingPage() {
               { name: "phone", type: "tel", placeholder: "Telefon Numaranız", required: true },
             ]}
             textarea={{ name: "message", placeholder: "Sormak istediklerinizi yazın...", rows: 4 }}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401500540-v8b3tn8s.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/hospital-reception-waiting-area-professional-consultation-room_482257-46891.jpg?_wi=1"
           />
         </div>
 
         <div id="footer" data-section="footer">
           <FooterMedia
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401538272-8fu6b3ko.png"
+            imageSrc="http://img.b2bpic.net/free-photo/hospital-reception-waiting-area-professional-consultation-room_482257-46891.jpg?_wi=2"
             logoText="Dr. Turab İSMAYILOV"
             columns={[
               { title: "Hizmetler", items: [{ label: "Burun Estetiği", href: "#services" }, { label: "Liposuction", href: "/liposuction" }, { label: "Karın Germe", href: "#services" }, { label: "Yüz Germe", href: "/yuz-germe" }, { label: "Lipödem", href: "/lipodem" }] },
