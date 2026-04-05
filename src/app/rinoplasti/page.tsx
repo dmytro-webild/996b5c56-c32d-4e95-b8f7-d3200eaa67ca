@@ -8,7 +8,7 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function RinoplastiPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="text-stagger" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
         <NavbarStyleApple
           navItems={[{ name: "Anasayfa", id: "/" }, { name: "Burun Estetiği", id: "rinoplasti" }, { name: "Liposuction", id: "liposuction" }, { name: "İletişim", id: "#contact" }]}
@@ -26,8 +26,8 @@ export default function RinoplastiPage() {
             <li>Kişiye özel planlama</li>
           </ul>
         </div>
-        <div id="contact"><ContactSplitForm title="Rinoplasti Hakkında Bilgi Alın" description="Size özel analizimiz için hemen iletişime geçin." inputs={[{ name: "name", type: "text", placeholder: "Adınız", required: true }, { name: "email", type: "email", placeholder: "E-posta", required: true }]} /></div>
-        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} />
+        <div id="contact"><ContactSplitForm useInvertedBackground={false} title="Rinoplasti Hakkında Bilgi Alın" description="Size özel analizimiz için hemen iletişime geçin." inputs={[{ name: "name", type: "text", placeholder: "Adınız", required: true }, { name: "email", type: "email", placeholder: "E-posta", required: true }]} /></div>
+        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
       </ReactLenis>
     </ThemeProvider>
   );
