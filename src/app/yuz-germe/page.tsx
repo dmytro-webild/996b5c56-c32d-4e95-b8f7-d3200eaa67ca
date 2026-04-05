@@ -79,7 +79,7 @@ export default function YuzGermePage() {
               { title: "İletişim", items: [{ label: "Randevu", href: "#contact" }] },
             ]}
             copyrightText="© 2025 Dr. Turab İsmayılov. Tüm hakları saklıdır."
-            videoSrc="https://www.w3schools.com/html/mov_bbb.mp4"
+            videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=5"
           />
         </div>
       </ReactLenis>
