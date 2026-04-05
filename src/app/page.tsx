@@ -47,7 +47,7 @@ export default function LandingPage() {
             logoText="Dr. Turab İSMAYILOV"
             description="Estetik ve plastik cerrahide mükemmeliyet. Kişiye özel dokunuşlar, doğal sonuçlar ve güvenli operasyon süreci ile hayalinizdeki görünüme kavuşun."
             buttons={[
-              { text: "Ücretsiz Ön Görüşme Alın", href: "#contact" },
+              { text: "Randevu Al", href: "#contact" },
               { text: "Hizmetleri İncele", href: "#services" },
             ]}
             imageSrc="http://img.b2bpic.net/free-photo/students-learning-cafeteria_23-2147679038.jpg"
