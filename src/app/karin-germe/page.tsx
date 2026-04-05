@@ -8,9 +8,11 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function KarinGermePage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="text-stagger" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
-        <NavbarStyleApple navItems={[{name: "Anasayfa", id: "/"}, {name: "Karın Germe", id: "#content"}]} brandName="Dr. Turab İSMAYILOV" />
+        <div id="nav" data-section="nav">
+          <NavbarStyleApple navItems={[{name: "Anasayfa", id: "/"}, {name: "Karın Germe", id: "#content"}, {name: "Liposuction", id: "/liposuction"}, {name: "Rinoplasti", id: "/rinoplasti"}, {name: "Yüz Germe", id: "/yuz-germe"}, {name: "Lipödem", id: "/lipodem"}]} />
+        </div>
         <div id="content" className="py-24 max-w-4xl mx-auto px-6">
           <h1 className="text-4xl font-bold mb-8">Karın Germe (Abdominoplasti) Uzmanlığı</h1>
           <img src="http://img.b2bpic.net/free-photo/close-up-hand-using-medical-tool-patient_23-2149103624.jpg" alt="Karın Germe Operasyonu" className="rounded-xl shadow-lg mb-8" />
@@ -20,13 +22,13 @@ export default function KarinGermePage() {
           <p className="text-lg mb-6 leading-relaxed">
             Cerrahi yaklaşımımızda, sadece deri sarkmalarını gidermekle kalmıyor, aynı zamanda karın kaslarını onararak daha sıkı ve doğal bir yapı oluşturuyoruz. Hastalarımın güvenliğini ve estetik tatminini ön planda tutan Dr. Turab İsmayılov, her bir vakada özelleştirilmiş planlama ile kişiye özel başarı sağlamaktadır.
           </p>
-          <img src="http://img.b2bpic.net/free-photo/woman-cosmetologist-making-beauty-procedures_1303-26019.jpg" alt="Estetik Cerrahi Süreci" className="rounded-xl shadow-lg mb-8" />
-          <p className="text-lg leading-relaxed">
-            Daha düz ve sıkı bir karın görünümü için uyguladığımız teknikler, modern cerrahi standartlarına dayanmaktadır. İyileşme dönemi boyunca size özel takip sistemimizle sürecin her aşamasında destekçiniz oluyoruz. Kendinizi çok daha iyi hissetmek ve estetik bir görünüme ulaşmak için uzman görüşü almak üzere randevunuzu hemen oluşturun.
-          </p>
         </div>
-        <ContactSplitForm title="Ücretsiz Muayene Randevusu" description="Karın germe operasyonu ve Dr. Turab İsmayılov'un uzmanlık alanları hakkında bilgi alın." inputs={[{name: "name", type: "text", placeholder: "İsim"}, {name: "phone", type: "tel", placeholder: "Telefon"}]} />
-        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} />
+        <div id="contact" data-section="contact">
+          <ContactSplitForm title="Ücretsiz Muayene Randevusu" description="Karın germe operasyonu hakkında bilgi alın." inputs={[{name: "name", type: "text", placeholder: "İsim"}, {name: "phone", type: "tel", placeholder: "Telefon"}]} useInvertedBackground={false} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+        </div>
+        <div id="footer" data-section="footer">
+          <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+        </div>
       </ReactLenis>
     </ThemeProvider>
   );
