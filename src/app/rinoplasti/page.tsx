@@ -27,7 +27,7 @@ export default function RinoplastiPage() {
           </ul>
         </div>
         <div id="contact"><ContactSplitForm useInvertedBackground={false} title="Rinoplasti Hakkında Bilgi Alın" description="Size özel analizimiz için hemen iletişime geçin." inputs={[{ name: "name", type: "text", placeholder: "Adınız", required: true }, { name: "email", type: "email", placeholder: "E-posta", required: true }]} /></div>
-        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=4" />
       </ReactLenis>
     </ThemeProvider>
   );
