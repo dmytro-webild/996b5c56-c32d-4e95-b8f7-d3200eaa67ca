@@ -34,7 +34,7 @@ export default function RinoplastiPage() {
         <FooterMedia
           logoText="Dr. Turab İSMAYILOV"
           columns={[{ title: "Links", items: [{ label: "Home", href: "/" }] }]}
-          videoSrc="https://example.com/video.mp4"
+          videoSrc="https://example.com/video.mp4?_wi=2"
         />
       </div>
     </ThemeProvider>
