@@ -31,7 +31,7 @@ export default function LipodemPage() {
           <p className="mb-4">Lipödem, genellikle alt ekstremiteleri etkileyen ve ağrılı bir yapıya sahip olabilen yağ dağılım bozukluğudur. Tedavisi genellikle özel liposuction teknikleri ile gerçekleştirilir.</p>
         </div>
         <ContactSplitForm useInvertedBackground={false} title="Randevu Alın" description="Lipödem tedavisi hakkında uzman görüşü alın." inputs={[{name: 'name', type: 'text', placeholder: 'İsim', required: true}, {name: 'email', type: 'email', placeholder: 'E-posta', required: true}]} />
-        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=2" />
       </ReactLenis>
     </ThemeProvider>
   );
