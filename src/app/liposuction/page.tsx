@@ -50,6 +50,7 @@ export default function LiposuctionPage() {
           <FeatureCardThree
             animationType="slide-up"
             textboxLayout="split"
+            useInvertedBackground={false}
             gridVariant="three-columns-all-equal-width"
             title="Neden Liposuction?"
             description="Liposuction, diyet ve egzersize dirençli yağ bölgelerini şekillendirmek için uygulanan modern bir cerrahi yöntemdir."
@@ -64,6 +65,8 @@ export default function LiposuctionPage() {
         <div id="faq" data-section="faq">
           <FaqDouble
             title="Liposuction Hakkında Sıkça Sorulanlar"
+            description="Liposuction hakkında merak edilenler."
+            useInvertedBackground={false}
             faqsAnimation="slide-up"
             textboxLayout="default"
             faqs={[
@@ -78,6 +81,7 @@ export default function LiposuctionPage() {
           <ContactSplitForm
             title="Detaylı Bilgi ve Randevu"
             description="Vücut şekillendirme için ücretsiz ön görüşme planlayın."
+            useInvertedBackground={false}
             inputs={[
               { name: "name", type: "text", placeholder: "Ad Soyad", required: true },
               { name: "email", type: "email", placeholder: "E-posta", required: true },
