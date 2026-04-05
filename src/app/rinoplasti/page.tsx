@@ -26,14 +26,14 @@ export default function RinoplastiPage() {
             title="Ücretsiz Konsültasyon"
             description="Burun estetiği hakkında aklınıza takılanları sormak için bize ulaşın."
             inputs={[{ name: "name", type: "text", placeholder: "Adınız" }, { name: "phone", type: "tel", placeholder: "Telefon" }]}
-            videoSrc="https://www.w3schools.com/html/mov_bbb.mp4"
+            videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=7"
           />
         </div>
         <div id="footer" data-section="footer">
           <FooterMedia
             logoText="Dr. Turab İSMAYILOV"
             columns={[{ title: "Hizmetler", items: [{ label: "Burun Estetiği", href: "/rinoplasti" }] }]}
-            videoSrc="https://www.w3schools.com/html/mov_bbb.mp4"
+            videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=8"
           />
         </div>
       </ReactLenis>
