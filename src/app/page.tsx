@@ -37,7 +37,7 @@ export default function LandingPage() {
               { name: "Liposuction", id: "/liposuction" },
               { name: "Hakkımızda", id: "about" },
               { name: "İletişim", id: "contact" },
-            ],
+            ]}
             brandName="Dr. Turab İSMAYILOV"
           />
         </div>
