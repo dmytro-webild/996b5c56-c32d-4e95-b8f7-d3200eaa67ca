@@ -20,10 +20,10 @@ export default function LipodemPage() {
             </div>
         </div>
         <div id="contact" data-section="contact">
-          <ContactSplitForm title="Bilgi ve Randevu" description="Lipödem tedavisi hakkında uzman görüşü almak için iletişime geçin." inputs={[{ name: "name", type: "text", placeholder: "Adınız" }, { name: "email", type: "email", placeholder: "E-posta" }]} useInvertedBackground={false} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+          <ContactSplitForm title="Bilgi ve Randevu" description="Lipödem tedavisi hakkında uzman görüşü almak için iletişime geçin." inputs={[{ name: "name", type: "text", placeholder: "Adınız" }, { name: "email", type: "email", placeholder: "E-posta" }]} useInvertedBackground={false} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=3" />
         </div>
         <div id="footer" data-section="footer">
-          <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[{ title: "Sayfalar", items: [{ label: "Anasayfa", href: "/" }] }]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+          <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[{ title: "Sayfalar", items: [{ label: "Anasayfa", href: "/" }] }]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=4" />
         </div>
       </ReactLenis>
     </ThemeProvider>
