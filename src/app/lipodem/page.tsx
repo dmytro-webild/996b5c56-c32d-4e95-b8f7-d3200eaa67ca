@@ -9,29 +9,69 @@ import HeroLogo from '@/components/sections/hero/HeroLogo';
 
 export default function LipodemPage() {
   return (
-    <ThemeProvider defaultButtonVariant="text-stagger" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
+    <ThemeProvider
+        defaultButtonVariant="bounce-effect"
+        defaultTextAnimation="reveal-blur"
+        borderRadius="pill"
+        contentWidth="medium"
+        sizing="medium"
+        background="circleGradient"
+        cardStyle="glass-elevated"
+        primaryButtonStyle="gradient"
+        secondaryButtonStyle="glass"
+        headingFontWeight="normal"
+    >
       <ReactLenis root>
-        <NavbarStyleApple
-          navItems={[
-            { name: "Anasayfa", id: "/" },
-            { name: "Karın Germe", id: "/karin-germe" },
-            { name: "Lipödem", id: "/lipodem" },
-            { name: "İletişim", id: "/contact" },
-          ]}
-          brandName="Dr. Turab İSMAYILOV"
-        />
-        <HeroLogo
-          logoText="Lipödem Tedavisi"
-          description="Bacaklarda ve vücutta düzensiz yağ birikimi ile karakterize lipödem için uzman cerrahi çözümler."
-          imageSrc="http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg?_wi=2"
-          buttons={[{ text: "Detaylı Bilgi", href: "#contact" }]}
-        />
-        <div className="container mx-auto py-16 px-4">
-          <h2 className="text-3xl font-bold mb-6">Lipödem Tedavisi Hakkında</h2>
-          <p className="mb-4">Lipödem, genellikle alt ekstremiteleri etkileyen ve ağrılı bir yapıya sahip olabilen yağ dağılım bozukluğudur. Tedavisi genellikle özel liposuction teknikleri ile gerçekleştirilir.</p>
+        <div id="nav" data-section="nav">
+          <NavbarStyleApple
+            navItems={[
+              { name: "Anasayfa", id: "/" },
+              { name: "Hizmetler", id: "/#services" },
+              { name: "Yüz Germe", id: "/yuz-germe" },
+              { name: "Lipödem", id: "/lipodem" },
+              { name: "Liposuction", id: "/liposuction" },
+              { name: "Hakkımızda", id: "/#about" },
+              { name: "İletişim", id: "/#contact" },
+            ]}
+            brandName="Dr. Turab İSMAYILOV"
+          />
         </div>
-        <ContactSplitForm useInvertedBackground={false} title="Randevu Alın" description="Lipödem tedavisi hakkında uzman görüşü alın." inputs={[{name: 'name', type: 'text', placeholder: 'İsim', required: true}, {name: 'email', type: 'email', placeholder: 'E-posta', required: true}]} />
-        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=2" />
+
+        <div id="hero" data-section="hero">
+          <HeroLogo
+            logoText="Lipödem Tedavisi"
+            description="Lipödem, genellikle bacaklarda ve bazen kollarda orantısız yağ birikimi ile karakterize, kronik ve ilerleyici bir hastalıktır. Doğru teşhis ve uzman cerrahi müdahale ile ağrılarınızı hafifletiyor ve yaşam kalitenizi artırıyoruz."
+            buttons={[{ text: "Randevu Al", href: "/#contact" }]}
+            imageSrc="http://img.b2bpic.net/free-photo/medical-specialist-examining-patient_107420-74008.jpg"
+            imageAlt="Lipödem muayenesi"
+          />
+        </div>
+
+        <div id="contact" data-section="contact">
+          <ContactSplitForm
+            title="Lipödem Tedavisi İçin Bize Ulaşın"
+            description="Lipödem şikayetleriniz hakkında detaylı bilgi almak ve muayene randevusu oluşturmak için formu doldurabilirsiniz."
+            inputs={[
+              { name: "name", type: "text", placeholder: "Adınız Soyadınız", required: true },
+              { name: "email", type: "email", placeholder: "E-posta", required: true },
+              { name: "phone", type: "tel", placeholder: "Telefon", required: true },
+            ]}
+            textarea={{ name: "message", placeholder: "Şikayetlerinizi kısaca belirtin..." }}
+            useInvertedBackground={false}
+            imageSrc="http://img.b2bpic.net/free-photo/doctor-working-with-patient-hospital_23-2149103624.jpg"
+          />
+        </div>
+
+        <div id="footer" data-section="footer">
+          <FooterMedia
+            logoText="Dr. Turab İSMAYILOV"
+            columns={[
+              { title: "Hizmetler", items: [{ label: "Lipödem", href: "/lipodem" }, { label: "Liposuction", href: "/liposuction" }] },
+              { title: "İletişim", items: [{ label: "İletişim", href: "/#contact" }] },
+            ]}
+            imageSrc="http://img.b2bpic.net/premium-photo/losing-weight-concept-real-people-size-plus-model-taking-measurements-her-thigh-holding-tailor-measuring-tape_378362-32.jpg?id=12368323"
+          />
+        </div>
       </ReactLenis>
     </ThemeProvider>
   );
