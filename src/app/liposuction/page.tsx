@@ -8,7 +8,7 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function LiposuctionPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="text-stagger" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
         <NavbarStyleApple
           navItems={[{ name: "Anasayfa", id: "/" }, { name: "Burun Estetiği", id: "rinoplasti" }, { name: "Liposuction", id: "liposuction" }, { name: "İletişim", id: "#contact" }]}
@@ -22,8 +22,8 @@ export default function LiposuctionPage() {
           <h2 className="text-3xl font-semibold mb-4">Recovery (İyileşme)</h2>
           <p className="mb-8">İşlem sonrası birkaç gün dinlenme önerilir. Ödemlerin inmesi 4-6 hafta sürebilir, ancak sonuçlar kısa sürede fark edilir.</p>
         </div>
-        <div id="contact"><ContactSplitForm title="Liposuction Hakkında Bilgi Alın" description="Vücut şekillendirme için uzman görüşü alın." inputs={[{ name: "name", type: "text", placeholder: "Adınız", required: true }, { name: "email", type: "email", placeholder: "E-posta", required: true }]} /></div>
-        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} />
+        <div id="contact"><ContactSplitForm useInvertedBackground={false} title="Liposuction Hakkında Bilgi Alın" description="Vücut şekillendirme için uzman görüşü alın." inputs={[{ name: "name", type: "text", placeholder: "Adınız", required: true }, { name: "email", type: "email", placeholder: "E-posta", required: true }]} /></div>
+        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
       </ReactLenis>
     </ThemeProvider>
   );
