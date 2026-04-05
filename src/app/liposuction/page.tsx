@@ -43,14 +43,12 @@ export default function LiposuctionPage() {
               {
                 heading: "Liposuction Nedir?",                
                 content: { 
-                  type: "paragraph", 
                   text: "Liposuction, vücudun belirli bölgelerindeki inatçı yağ birikintilerini uzaklaştırmak amacıyla uygulanan cerrahi bir işlemdir. Diyet ve egzersizle eritilemeyen yağ dokularını hedef alan bu yöntem, hastaların vücut hatlarını daha belirgin ve estetik hale getirmelerine yardımcı olur. Karın, kalça, basen, uyluk, kollar, çene altı ve boyun gibi pek çok bölgeye uygulanabilen liposuction, bir kilo verme yöntemi değil, bir vücut şekillendirme operasyonudur. Dr. Turab İsmayılov, hastasının vücut yapısını analiz ederek en doğal sonuçları elde etmeyi hedefler."
                 }
               },
               {
                 heading: "Operasyon Süreci ve Teknikler",                
                 content: {
-                  type: "list",                  
                   items: [
                     "Tumescent liposuction: Bölgeye özel bir sıvı enjekte edilerek yağların kolayca parçalanması sağlanır.",                    
                     "Vaser liposuction: Ultrasonik enerji kullanılarak yağ dokuları hedeflenir ve çevre dokulara zarar verilmez.",                    
@@ -60,8 +58,7 @@ export default function LiposuctionPage() {
               },
               {
                 heading: "İyileşme Süreci",                
-                content: {
-                  type: "paragraph",                  
+                content: { 
                   text: "Liposuction sonrası iyileşme süreci genellikle oldukça konforludur. Operasyon bölgesinde hafif şişlik veya morluklar olması normaldir ve birkaç hafta içinde kendiliğinden geçer. Hastalarımızın özel korse giymesi, dokuların yeni formuna alışması ve ödemin hızla atılması açısından büyük önem taşır. Çoğu hasta, operasyondan birkaç gün sonra günlük aktivitelerine dönebilirken, ağır fiziksel aktiviteler için birkaç hafta beklenmesi önerilir."
                 }
               }
