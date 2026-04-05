@@ -41,8 +41,9 @@ export default function LiposuctionPage() {
             subtitle="Vücut Konturlarınızı Yeniden Şekillendirin"
             sections={[
               {
-                heading: "Liposuction Nedir?",                content: {
-                  type: "paragraph",                  text: "Liposuction, vücudun belirli bölgelerindeki inatçı yağ birikintilerini uzaklaştırmak amacıyla uygulanan cerrahi bir işlemdir. Diyet ve egzersizle eritilemeyen yağ dokularını hedef alan bu yöntem, hastaların vücut hatlarını daha belirgin ve estetik hale getirmelerine yardımcı olur. Karın, kalça, basen, uyluk, kollar, çene altı ve boyun gibi pek çok bölgeye uygulanabilen liposuction, bir kilo verme yöntemi değil, bir vücut şekillendirme operasyonudur. Dr. Turab İsmayılov, hastasının vücut yapısını analiz ederek en doğal sonuçları elde etmeyi hedefler."
+                heading: "Liposuction Nedir?",                content: { 
+                  type: "paragraph", 
+                  text: "Liposuction, vücudun belirli bölgelerindeki inatçı yağ birikintilerini uzaklaştırmak amacıyla uygulanan cerrahi bir işlemdir. Diyet ve egzersizle eritilemeyen yağ dokularını hedef alan bu yöntem, hastaların vücut hatlarını daha belirgin ve estetik hale getirmelerine yardımcı olur. Karın, kalça, basen, uyluk, kollar, çene altı ve boyun gibi pek çok bölgeye uygulanabilen liposuction, bir kilo verme yöntemi değil, bir vücut şekillendirme operasyonudur. Dr. Turab İsmayılov, hastasının vücut yapısını analiz ederek en doğal sonuçları elde etmeyi hedefler."
                 }
               },
               {
