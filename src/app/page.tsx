@@ -86,12 +86,12 @@ export default function LandingPage() {
         {
           title: "Burun Estetiği (Rinoplasti)",
           description: "Yüz hatlarınızla uyumlu, fonksiyonel ve estetik burun operasyonları.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg?_wi=1",
         },
         {
           title: "Liposuction",
           description: "İnatçı yağlardan kurtulun, vücut hatlarınızı yeniden belirginleştirin.",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg?_wi=1",
         },
         {
           title: "Karın Germe",
@@ -101,12 +101,12 @@ export default function LandingPage() {
         {
           title: "Lipödem",
           description: "Lipödem tedavisi ile ağrılarınızı azaltın, yaşam kalitenizi artırın.",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg?_wi=2",
         },
         {
           title: "Yüz Germe (Face Lift)",
           description: "Daha genç, dinamik ve doğal bir yüz görünümü için profesyonel dokunuşlar.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg?_wi=2",
         },
       ]}
       title="Estetik Hizmetlerimiz"
@@ -224,13 +224,13 @@ export default function LandingPage() {
         placeholder: "Sormak istediklerinizi yazın...",
         rows: 4,
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/waiting-room-hospital-lobby-with-reception-counter-desk-diverse-people-waiting-attend-checkup-visit-appointment-health-care-examination-emergency-area-medical-clinic_482257-46891.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/waiting-room-hospital-lobby-with-reception-counter-desk-diverse-people-waiting-attend-checkup-visit-appointment-health-care-examination-emergency-area-medical-clinic_482257-46891.jpg?_wi=1"
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/waiting-room-hospital-lobby-with-reception-counter-desk-diverse-people-waiting-attend-checkup-visit-appointment-health-care-examination-emergency-area-medical-clinic_482257-46891.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/waiting-room-hospital-lobby-with-reception-counter-desk-diverse-people-waiting-attend-checkup-visit-appointment-health-care-examination-emergency-area-medical-clinic_482257-46891.jpg?_wi=2"
       logoText="Dr. Turab İSMAYILOV"
       columns={[
         {
