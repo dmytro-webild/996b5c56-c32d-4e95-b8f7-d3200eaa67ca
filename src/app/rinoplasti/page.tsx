@@ -48,7 +48,7 @@ export default function RinoplastiPage() {
         <div id="footer" data-section="footer">
           <FooterMedia
             logoText="Dr. Turab İSMAYILOV"
-            videoSrc="http://img.b2bpic.net/video/liposuction.mp4"
+            videoSrc="http://img.b2bpic.net/video/liposuction.mp4?_wi=3"
             columns={[
               { title: "Hizmetler", items: [{ label: "Rinoplasti", href: "#" }] }
             ]}
