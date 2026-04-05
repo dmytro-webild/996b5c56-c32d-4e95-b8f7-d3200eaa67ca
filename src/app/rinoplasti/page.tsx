@@ -54,8 +54,8 @@ export default function RinoplastiPage() {
             title="Rinoplasti Hakkında"
             description="Burun estetiği sadece estetik bir görünüm değil, aynı zamanda sağlıklı nefes almayı da hedefler."
             features={[
-              { id: "1", title: "Fonksiyonel Düzelme", description: "Burun tıkanıklığı ve septum deviasyonu gibi sorunların giderilmesi.", imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg?_wi=2", imageAlt: "Nefes almayı iyileştiren fonksiyonel cerrahi" },
-              { id: "2", title: "Estetik Yenilenme", description: "Yüz hatlarınızla uyumlu, doğal ve zarif burun yapısı.", imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg?_wi=3", imageAlt: "Estetik rinoplasti sonuçları" }
+              { id: "1", tag: "Özellik", title: "Fonksiyonel Düzelme", description: "Burun tıkanıklığı ve septum deviasyonu gibi sorunların giderilmesi.", imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg?_wi=2", imageAlt: "Nefes almayı iyileştiren fonksiyonel cerrahi" },
+              { id: "2", tag: "Özellik", title: "Estetik Yenilenme", description: "Yüz hatlarınızla uyumlu, doğal ve zarif burun yapısı.", imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-wavy-voluminous-hair-beige-background-with-bright-pink-lipstick-lip-gloss-topless-bare-shoulders_343596-8239.jpg?_wi=3", imageAlt: "Estetik rinoplasti sonuçları" }
             ]}
           />
         </div>
@@ -65,6 +65,8 @@ export default function RinoplastiPage() {
             title="Sıkça Sorulan Sorular"
             description="Rinoplasti süreci hakkında bilmeniz gerekenler."
             faqsAnimation="slide-up"
+            textboxLayout="default"
+            useInvertedBackground={false}
             faqs={[
               { id: "1", title: "Rinoplasti sonrası iyileşme ne kadar sürer?", content: "Genellikle ilk 1 hafta içerisinde günlük yaşama dönülebilir, tam iyileşme süreci ise birkaç ay sürebilir." },
               { id: "2", title: "Ağrılı bir işlem mi?", content: "Güncel teknikler ve anestezi yöntemleri sayesinde operasyon sonrası ağrılar oldukça minimize edilmiştir." }
