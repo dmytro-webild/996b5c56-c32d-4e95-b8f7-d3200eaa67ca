@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
+import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function LiposuctionPage() {
@@ -64,15 +64,17 @@ export default function LiposuctionPage() {
         </div>
 
         <div id="faq" data-section="faq">
-          <FaqSplitText
-            sideTitle="Sıkça Sorulan Sorular"
-            sideDescription="Liposuction hakkında en çok merak edilenler."
+          <FaqSplitMedia
+            title="Sıkça Sorulan Sorular"
+            description="Liposuction hakkında en çok merak edilenler."
             faqs={[
               { id: "1", title: "Liposuction bir kilo verme yöntemi midir?", content: "Hayır, liposuction zayıflama ameliyatı değil, bölgesel yağları şekillendirme işlemidir." },
               { id: "2", title: "İyileşme süreci nasıldır?", content: "Genellikle birkaç gün içinde normal yaşama dönülebilir, korselerin 3-4 hafta kullanılması önerilir." },
               { id: "3", title: "İz kalır mı?", content: "Liposuction kanülleri için açılan giriş delikleri çok küçük olduğu için fark edilmeyecek kadar küçük izler kalır." },
             ]}
             faqsAnimation="slide-up"
+            textboxLayout="split"
+            useInvertedBackground={false}
           />
         </div>
 
