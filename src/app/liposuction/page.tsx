@@ -23,7 +23,7 @@ export default function LiposuctionPage() {
           <p className="mb-8">İşlem sonrası birkaç gün dinlenme önerilir. Ödemlerin inmesi 4-6 hafta sürebilir, ancak sonuçlar kısa sürede fark edilir.</p>
         </div>
         <div id="contact"><ContactSplitForm useInvertedBackground={false} title="Liposuction Hakkında Bilgi Alın" description="Vücut şekillendirme için uzman görüşü alın." inputs={[{ name: "name", type: "text", placeholder: "Adınız", required: true }, { name: "email", type: "email", placeholder: "E-posta", required: true }]} /></div>
-        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} videoSrc="https://www.w3schools.com/html/mov_bbb.mp4?_wi=3" />
       </ReactLenis>
     </ThemeProvider>
   );
