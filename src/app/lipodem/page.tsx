@@ -3,56 +3,38 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import FooterMedia from '@/components/sections/footer/FooterMedia';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import { Activity } from "lucide-react";
+import FooterMedia from '@/components/sections/footer/FooterMedia';
+import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 
 export default function LipodemPage() {
   return (
-    <ThemeProvider
-        defaultButtonVariant="bounce-effect"
-        defaultTextAnimation="reveal-blur"
-        borderRadius="pill"
-        contentWidth="medium"
-        sizing="medium"
-        background="circleGradient"
-        cardStyle="glass-elevated"
-        primaryButtonStyle="gradient"
-        secondaryButtonStyle="glass"
-        headingFontWeight="normal"
-    >
+    <ThemeProvider>
       <ReactLenis root>
         <NavbarStyleApple
-          navItems={[
-            { name: "Anasayfa", id: "/" },
-            { name: "Yüz Germe", id: "/yuz-germe" },
-            { name: "Lipödem", id: "/lipodem" },
-            { name: "İletişim", id: "/#contact" },
-          ]}
-          brandName="Dr. Turab İSMAYILOV"
+            navItems={[
+              { name: "Anasayfa", id: "/" },
+              { name: "Yüz Germe", id: "/yuz-germe" },
+              { name: "Lipödem", id: "/lipodem" },
+            ]}
+            brandName="Dr. Turab İSMAYILOV"
         />
-        <main className="pt-32 pb-20 px-6 max-w-4xl mx-auto space-y-8">
-          <h1 className="text-5xl font-bold">Lipödem Tedavisi</h1>
-          <img src="http://img.b2bpic.net/free-photo/beautiful-portrait-women-with-all-kinds-body_23-2149159287.jpg?_wi=2" alt="Lipödem Tedavisi" className="w-full rounded-2xl shadow-lg" />
-          <p className="text-lg leading-relaxed">Lipödem, genellikle bacaklarda ve bazen kollarda orantısız yağ birikimi ile karakterize, kronik ve ilerleyici bir yağ dokusu hastalığıdır. Genellikle sadece kadınları etkileyen bu durum, diyet ve egzersize dirençli yağ dokularının ağrı, ödem ve hassasiyetle birlikte görülmesiyle kendini belli eder. Dr. Turab İsmayılov olarak, hastalarımızın yaşam kalitesini artırmak için modern cerrahi yöntemlerle bu süreci yönetiyoruz.</p>
-          <p className="text-lg leading-relaxed">Hastalığın erken evrelerinde konservatif yöntemler önerilse de, ilerlemiş lipödem vakalarında cerrahi müdahale kaçınılmaz hale gelebilmektedir. Liposuction tekniklerimiz, lenfatik sisteme zarar vermeden, bölgedeki patolojik yağ dokularını hedef alarak nazikçe uzaklaştırır. Bu işlem sadece estetik bir görünüm sağlamakla kalmaz, aynı zamanda hastaların yaşadığı ağır bacak hissi, ağrı ve hareket kısıtlılığını önemli ölçüde azaltır.</p>
-          <img src="http://img.b2bpic.net/free-photo/front-view-female-physiotherapist-posing_23-2148780764.jpg?_wi=1" alt="Uzman Görüşü" className="w-full rounded-2xl shadow-lg" />
-          <p className="text-lg leading-relaxed">Cerrahi süreçte en öncelikli hedefimiz, hastalarımızın uzun vadeli sağlığıdır. Ameliyat öncesi detaylı değerlendirme, doğru evreleme ve kişiye özel planlama ile en güvenli ve etkili sonuçlara ulaşmayı hedefliyoruz. İyileşme süreci, dokuların kendini yenilemesi ve ödemlerin gerilemesi ile birkaç ay süren bir takip programını içerir. Dr. Turab İsmayılov ile bu zorlu süreci konforlu bir değişime dönüştürebilirsiniz.</p>
-        </main>
-        <ContactSplitForm
-          useInvertedBackground={true}
-          title="Lipödem Tedavisi İçin Danışın"
-          description="Uzman görüşü almak ve randevu oluşturmak için bize ulaşın."
-          inputs={[
-            { name: "name", type: "text", placeholder: "Adınız Soyadınız", required: true },
-            { name: "email", type: "email", placeholder: "E-posta Adresiniz", required: true },
-          ]}
-        />
-        <FooterMedia
-          imageSrc="http://img.b2bpic.net/free-photo/waiting-room-hospital-lobby-with-reception-counter-desk-diverse-people-waiting-attend-checkup-visit-appointment-health-care-examination-emergency-area-medical-clinic_482257-46891.jpg?_wi=2"
-          logoText="Dr. Turab İSMAYILOV"
-          columns={[{ title: "Hizmetler", items: [{ label: "Anasayfa", href: "/" }, { label: "Yüz Germe", href: "/yuz-germe" }] }]}
-        />
+        <div className="pt-32 pb-16">
+          <InlineImageSplitTextAbout
+            heading={[{ type: 'text', content: 'Lipödem Tedavisi ve İyileşme Süreci' }]}
+            className="max-w-4xl mx-auto px-6"
+            ariaLabel="Lipödem hakkında bilgi"
+          >
+            <div className="space-y-6">
+              <p>Lipödem, özellikle bacaklarda ve bazen kollarda orantısız yağ birikimi ile karakterize, ağrılı ve kronik bir durumdur. Genellikle hormonal değişimlerle tetiklenen bu durum, sadece estetik bir kaygı değil, aynı zamanda ciddi bir sağlık sorunudur. Erken teşhis ve doğru tedavi yöntemleri ile hastaların yaşam kalitesi ciddi oranda artırılabilir.</p>
+              <img src="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775400391689-e1kr93ta.jpg" alt="Lipödem tedavi öncesi" className="rounded-lg shadow-lg my-6" />
+              <p>Kliniğimizde lipödem tedavisinde uyguladığımız özel liposuction teknikleri, vücudun kontürlerini düzeltirken aynı zamanda hastanın yaşadığı ağırlık hissini ve kronik ağrıları minimize etmeyi hedefler. Cerrahi müdahale öncesinde kapsamlı bir değerlendirme yaparak, hastalarımızın kişisel sağlık geçmişine ve vücut yapısına en uygun tedavi planını oluşturuyoruz.</p>
+              <p>İyileşme süreci, uygulanan bölgenin genişliğine göre değişkenlik gösterse de, modern cerrahi yöntemlerimiz sayesinde hastalarımız hızla günlük hayatlarına dönebilmektedir. Operasyon sonrasında takip edilmesi gereken özel kompresyon giysileri ve fizyoterapi önerileri ile uzun vadeli sonuçların korunmasını sağlıyoruz. Sağlıklı ve ağrısız bir yaşam için doğru tekniklerle profesyonel desteği kliniğimizde bulabilirsiniz.</p>
+            </div>
+          </InlineImageSplitTextAbout>
+        </div>
+        <ContactSplitForm title="Lipödem Tedavisi İçin Randevu" description="Size özel tedavi seçeneklerimizi öğrenmek için bizimle iletişime geçin." inputs={[{ name: "name", type: "text", placeholder: "Adınız Soyadınız", required: true }, { name: "email", type: "email", placeholder: "E-posta Adresiniz", required: true }]} />
+        <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} />
       </ReactLenis>
     </ThemeProvider>
   );
