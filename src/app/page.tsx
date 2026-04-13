@@ -55,6 +55,15 @@ export default function LandingPage() {
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401476529-x1t7925e.png"
             imageAlt="Dr. Turab İsmayılov"
           />
+          <a 
+            href="https://wa.me/905466398033" 
+            className="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors"
+            aria-label="WhatsApp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MessageCircle className="w-8 h-8" />
+          </a>
         </div>
 
         <div id="about" data-section="about">
