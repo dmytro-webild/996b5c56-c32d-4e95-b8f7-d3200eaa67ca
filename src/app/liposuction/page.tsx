@@ -81,7 +81,7 @@ export default function LiposuctionPage() {
 
         <div id="footer" data-section="footer">
           <FooterMedia
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401854412-kfbas95n.png"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401854412-kfbas95n.png?_wi=2"
             logoText="Dr. Turab İSMAYILOV"
             columns={[
               { title: "Hizmetler", items: [{ label: "Burun Estetiği", href: "/#services" }, { label: "Liposuction", href: "/liposuction" }, { label: "Karın Germe", href: "/#services" }, { label: "Yüz Germe", href: "/yuz-germe" }, { label: "Lipödem", href: "/lipodem" }] },

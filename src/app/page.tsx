@@ -143,7 +143,7 @@ export default function LandingPage() {
               { name: "phone", type: "tel", placeholder: "Telefon Numaranız", required: true },
             ]}
             textarea={{ name: "message", placeholder: "Sormak istediklerinizi yazın...", rows: 4 }}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401854412-kfbas95n.png"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401854412-kfbas95n.png?_wi=3"
           />
         </div>
 
