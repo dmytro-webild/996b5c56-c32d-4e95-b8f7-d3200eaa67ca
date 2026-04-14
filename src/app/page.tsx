@@ -11,6 +11,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import { Activity, MessageCircle } from "lucide-react";
+import { getVisualEditScript } from "@/utils/visual-edit-script";
 
 export default function LandingPage() {
   return (
@@ -157,6 +158,7 @@ export default function LandingPage() {
             copyrightText="© 2025 Dr. Turab İsmayılov. Tüm hakları saklıdır."
           />
         </div>
+        <script dangerouslySetInnerHTML={{ __html: `${getVisualEditScript()}` }} />
       </ReactLenis>
     </ThemeProvider>
   );

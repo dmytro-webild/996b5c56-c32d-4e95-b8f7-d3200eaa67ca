@@ -5,6 +5,7 @@ import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
+import { getVisualEditScript } from "@/utils/visual-edit-script";
 
 export default function KarinGermePage() {
   return (
@@ -29,6 +30,7 @@ export default function KarinGermePage() {
         <div id="footer" data-section="footer">
           <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1776167077817-364n9nl6.png" />
         </div>
+        <script dangerouslySetInnerHTML={{ __html: `${getVisualEditScript()}` }} />
       </ReactLenis>
     </ThemeProvider>
   );

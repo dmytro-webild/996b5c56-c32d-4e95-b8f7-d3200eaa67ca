@@ -7,6 +7,7 @@ import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
+import { getVisualEditScript } from "@/utils/visual-edit-script";
 
 export default function LiposuctionPage() {
   return (
@@ -89,6 +90,7 @@ export default function LiposuctionPage() {
             copyrightText="© 2025 Dr. Turab İsmayılov. Tüm hakları saklıdır."
           />
         </div>
+        <script dangerouslySetInnerHTML={{ __html: `${getVisualEditScript()}` }} />
       </ReactLenis>
     </ThemeProvider>
   );

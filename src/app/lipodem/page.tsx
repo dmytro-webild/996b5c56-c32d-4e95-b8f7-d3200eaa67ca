@@ -6,6 +6,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
+import { getVisualEditScript } from "@/utils/visual-edit-script";
 
 export default function LipodemPage() {
   return (
@@ -72,6 +73,7 @@ export default function LipodemPage() {
             imageSrc="http://img.b2bpic.net/premium-photo/losing-weight-concept-real-people-size-plus-model-taking-measurements-her-thigh-holding-tailor-measuring-tape_378362-32.jpg?id=12368323"
           />
         </div>
+        <script dangerouslySetInnerHTML={{ __html: `${getVisualEditScript()}` }} />
       </ReactLenis>
     </ThemeProvider>
   );
