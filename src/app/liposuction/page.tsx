@@ -24,6 +24,7 @@ export default function LiposuctionPage() {
         headingFontWeight="normal"
     >
       <ReactLenis root>
+        <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe>` }} />
         <div id="nav" data-section="nav">
           <NavbarStyleApple
             navItems={[
