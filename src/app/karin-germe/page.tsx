@@ -15,7 +15,7 @@ export default function KarinGermePage() {
         </div>
         <div id="content" className="py-24 max-w-4xl mx-auto px-6">
           <h1 className="text-4xl font-bold mb-8">Karın Germe (Abdominoplasti) Uzmanlığı</h1>
-          <img src="http://img.b2bpic.net/free-photo/close-up-hand-using-medical-tool-patient_23-2149103624.jpg" alt="Karın Germe Operasyonu" className="rounded-xl shadow-lg mb-8" />
+          <img src="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1776167077817-364n9nl6.png" alt="Karın Germe Operasyonu" className="rounded-xl shadow-lg mb-8" />
           <p className="text-lg mb-6 leading-relaxed">
             Karın bölgesi, yaşlanma, hamilelik veya ani kilo değişimleri nedeniyle esnekliğini en çok kaybeden bölgelerdendir. Dr. Turab İsmayılov, abdominoplasti (karın germe) ameliyatlarında dokuların daha sıkı, düz ve estetik görünmesini sağlayarak vücudun merkez bölgesini gençleştirir.
           </p>
@@ -27,7 +27,7 @@ export default function KarinGermePage() {
           <ContactSplitForm title="Ücretsiz Muayene Randevusu" description="Karın germe operasyonu hakkında bilgi alın." inputs={[{name: "name", type: "text", placeholder: "İsim"}, {name: "phone", type: "tel", placeholder: "Telefon"}]} useInvertedBackground={false} imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1775401854412-kfbas95n.png" />
         </div>
         <div id="footer" data-section="footer">
-          <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} imageSrc="http://img.b2bpic.net/free-photo/patient-is-meeting-doctor_53876-14359.jpg?id=2765291" />
+          <FooterMedia logoText="Dr. Turab İSMAYILOV" columns={[]} imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BqpAC3wPJ7y4HDQWWtKh2DSRee/uploaded-1776167077817-364n9nl6.png" />
         </div>
       </ReactLenis>
     </ThemeProvider>
