@@ -4,6 +4,7 @@ import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import LegalSection from '@/components/legal/LegalSection';
+import { getVisualEditScript } from "@/utils/visual-edit-script";
 
 export default function YuzGermePage() {
   return (
@@ -31,6 +32,7 @@ export default function YuzGermePage() {
            columns={[{ title: "Menü", items: [{ label: "Anasayfa", href: "/" }] }]} 
            videoSrc="https://www.w3schools.com/howto/rain.mp4?_wi=3"
         />
+        <script dangerouslySetInnerHTML={{ __html: `${getVisualEditScript()}` }} />
       </ReactLenis>
     </ThemeProvider>
   );
